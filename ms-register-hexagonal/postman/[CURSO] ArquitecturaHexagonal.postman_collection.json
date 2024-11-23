@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "e9365ac5-c5a3-4f07-9270-bcdcfa9e733b",
+		"name": "[CURSO] ArquitecturaHexagonal",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31318077"
+	},
+	"item": [
+		{
+			"name": "Person",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/api/person/46290587",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"api",
+						"person",
+						"46290587"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Company",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/api/company/10462905870",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"api",
+						"company",
+						"10462905870"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
